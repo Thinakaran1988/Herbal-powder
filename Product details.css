@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: justify;
+}
+.container{
+    background-color: rgb(236, 219, 196);
+}
+.Product{
+    width: 100%;
+    display: flex;
+    padding-top: 6%;
+
+}
+
+.image-shape{
+    border-radius: 20px;
+    height: 500px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.Product_left{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+.smallimg{
+    width: 55%;
+    height: auto;
+    /* object-fit:cover; */
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.smallimg_one img{
+    width: 100%;
+}
+
+.smallimg_two img{
+    width: 100%;
+}
+
+.Product_right{
+    width: 40%;
+    padding-left: 3%;
+}
+.imageleft img{
+    width: 100%;
+}
+
+.icons h5{
+    display: inline-block;
+}
+.icons{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.detailcontent{    display: flex;
+    padding-top: 20px;
+}
+
+.detailcontent h4{
+    margin-right: 18px;
+}
+
+.detailcontentsecond{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0px 15px;
+}
+
+p span{
+    font-weight: bold;
+}
+
+p{
+    padding-top: 30px;  
+    line-height: 30px;
+}
+
+.btncountdiv{
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.count{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.btncount{
+    width: 80px;
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.count{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.buybtn{
+    width: 100%;
+    height: 30%;
+    padding-top: 30px;
+}
+
+.buybtn button{
+    width: 80%;
+    height: 22%;
+    /* font-weight: bold; */
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.details{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.detailsproduct{
+    padding-left:8% ;
+    width: 50%;
+}
+
+.detailsproduct span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.detailsproduct h1{
+    text-decoration: underline black;
+}
+
+.detailsproduct p{
+    line-height: 20px;
+}
+
+.detailsadditional{
+    width: 40%;
+      /* padding-top: 9%; */
+}
+
+.detailsadditional h1{
+    text-decoration: underline;
+}
+ul li{
+    line-height: 30px;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+span{
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:900px) {
+
+.Product{
+    display: flex;
+    flex-direction: column;
+}
+.Product_left{
+    width: 100%;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.Product_right{
+    width: 90%;
+}
+.imageleft img{
+    max-width: 700px;
+    min-width: 300px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.imageleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsproduct{
+    padding-left:20px ;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.buybtn{
+    width: 100%;
+    height: 30%;
+    padding-top: 30px;
+}
+
+.buybtn button{
+    width: 80%;
+    height: 30%;
+    /* font-weight: bold; */
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.smallimg{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 5%    ;
+    gap: 3px;
+    padding-bottom: 50px;
+}
+
+.smallimg_one img{
+    width: 50%;
+}
+
+.smallimg_two img{
+    width: 50%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.detailsadditional{
+    width: 90%;
+    padding-left:8% ;
+
+}
+.detailsproduct{
+    padding-left:8% ;
+    width: 90%;
+}
+
+.image-shape{
+    border-radius:unset;
+    height: 300px;
+    width: auto;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 16px;
+}
+}
